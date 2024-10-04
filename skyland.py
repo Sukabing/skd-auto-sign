@@ -30,10 +30,10 @@ header_login = {
 # 签名请求头一定要这个顺序，否则失败
 # timestamp是必填的,其它三个随便填,不要为none即可
 header_for_sign = {
-    'platform': '',
-    'timestamp': '',
-    'dId': '',
-    'vName': ''
+    'platform': 'phone',
+    'timestamp': '1',
+    'dId': '2113097922',
+    'vName': '1.0.0'
 }
 
 # 签到url
